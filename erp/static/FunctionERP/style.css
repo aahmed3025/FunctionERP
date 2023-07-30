@@ -1,0 +1,32 @@
+/* Styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #2196f3; 
+    color: white;
+    }
+
+    .topnav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px; 
+    }
+
+    .card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    }
+    
+    .card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    }

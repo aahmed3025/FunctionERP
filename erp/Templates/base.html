@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Function ERP</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+<!-- Top Navigation -->
+
+<div class="topnav">
+    <a href="#">Dashboard</a>  
+    <a href="#">Sales</a>
+    <a href="#">Purchase</a>
+
+    <!-- Right aligned links -->
+    <div class="topnav-right">
+    <a href="#">Admin</a>
+    <a href="#">Logout</a>
+    </div>
+
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+
+    <h1>Dashboard</h1>
+
+    <!-- Cards -->
+    <div class="card-grid">
+    <div class="card">
+        <h2>Sales</h2>
+        <p>$10,000</p>
+    </div>
+
+    <div class="card">
+        <h2>Revenue</h2>
+        <p>$50,000</p>
+    </div>
+    
+    <!-- More cards -->
+    </div>
+
+</div>
+
+</body>
+</html>
